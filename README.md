@@ -37,7 +37,7 @@ Nombre de colonnes: 12
 
 Valeurs manquantes: Aucune
        
-###  Classification : KNeighborsClassifier, 
+###  Classification : LogisticRegression, DecisionTreeClassifier ,KNeighborsClassifier 
 
 
 Score:  
