@@ -24,16 +24,16 @@
 
 - Prédire la qualite du vin
 
-1- Utilisez la stratégie de classification pour collecter et prétraiter les données, 
-2- Choisissez un modèle, entraînez-le et évaluez-le. 
-3- Parametrez les hyperparamètres pour faire la meilleure prédiction d'apprentissage automatique.
+-1 Utilisez la stratégie de classification pour collecter et prétraiter les données, 
+-2 Choisissez un modèle, entraînez-le et évaluez-le. 
+-3 Parametrez les hyperparamètres pour faire la meilleure prédiction d'apprentissage automatique.
 
 #### Remarque: plusieurs des attributs peuvent être corrélés, il est donc logique d'appliquer une sorte de sélection de fonctionnalité. 
 
 Nombre de lignes: 6497
 - vin rouge : 1599
 - vin blanc : 4898
-Nombre de colonnes: 12
+- Nombre de colonnes: 12
 
 Valeurs manquantes: Aucune
        
