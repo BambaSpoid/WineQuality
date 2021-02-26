@@ -36,23 +36,7 @@ Nombre de lignes: 6497
 Nombre de colonnes: 12
 
 Valeurs manquantes: Aucune
-    
-    3- replace string columns into integer
-
-    Quality Column:
-
-    - from 1 to 4 : bad quality = 0   
-    - from 5 to 7 : good quality = 1   
-    - from 8 to 10 : high quality = 2   
-
-    Type Column:
-
-    - white = 1   
-    - red = 0   
-
-
-
-
+       
 ###  Classification : KNeighborsClassifier, 
 
 
