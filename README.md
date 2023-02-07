@@ -1,41 +1,36 @@
-# Predire la qualite du vin
+# Predicting the quality of wine
 
 # Kaggle Challenge - Knowledge
 
-## Les informations pertinentes:
+## Relevant information:
 
-   Les deux ensembles de données sont liés aux variantes rouges et blanches du vin portugais "Vinho Verde".
-   Pour plus de détails, consulter: http://www.vinhoverde.pt/en/ ou la référence [Cortez et al., 2009].
-   En raison de problèmes de confidentialité et de logistique, seules les variables physico-chimiques (entrées) et sensorielles (sorties)
-   sont disponibles (par exemple, il n'y a pas de données sur les types de raisin, la marque de vin, le prix de vente du vin, etc.).
+   Both data sets are related to the red and white variants of the Portuguese wine "Vinho Verde".
+   For more details, see: http://www.vinhoverde.pt/en/ or reference [Cortez et al., 2009].
+   Due to confidentiality and logistical issues, only physicochemical (inputs) and sensory (outputs) variables
+   are available (e.g., there is no data on grape type, wine brand, wine selling price, etc.).
 
-  ## Challenge
+## Challenge
 
-  Ces ensembles de données peuvent être considérés comme des tâches de classification ou de régression.
-   Les classes sont ordonnées et non équilibrées (par exemple, il y a plus de vins normaux
-   excellents ou mauvais). Des algorithmes de détection des valeurs aberrantes pourraient être utilisés pour détecter les quelques excellents
-   ou des vins pauvres. De plus, nous ne savons pas si toutes les variables d'entrée sont pertinentes. Alors
-   il pourrait être intéressant de tester les méthodes de sélection des fonctionnalités.
+   These data sets can be considered as classification or regression tasks. The classes are ordered and unbalanced (for example, there are more normal
+   excellent or bad). Outlier detection algorithms could be used to detect the few excellent or poor wines. Moreover, 
+   we do not know if all input variables are relevant. So it could be interesting to test feature selection methods.
 
+## Goal
 
+- Predicting wine quality
 
+-1 Use the classification strategy to collect and preprocess data.
+-2 Choose a model, train it, and evaluate it.
+-3 Set the hyperparameters to make the best machine learning prediction.
 
-## Objectif
+#### Note: Several of the attributes may be correlated, so it makes sense to apply some sort of feature selection. 
 
-- Prédire la qualite du vin
+Number of lines: 6497
+- red wine: 1599
+- white wine: 4898
+- Number of columns: 12
 
--1 Utilisez la stratégie de classification pour collecter et prétraiter les données, 
--2 Choisissez un modèle, entraînez-le et évaluez-le. 
--3 Parametrez les hyperparamètres pour faire la meilleure prédiction d'apprentissage automatique.
-
-#### Remarque: plusieurs des attributs peuvent être corrélés, il est donc logique d'appliquer une sorte de sélection de fonctionnalité. 
-
-Nombre de lignes: 6497
-- vin rouge : 1599
-- vin blanc : 4898
-- Nombre de colonnes: 12
-
-Valeurs manquantes: Aucune
+Missing values: none
        
 ###  Classification : LogisticRegression, DecisionTreeClassifier ,KNeighborsClassifier 
 
@@ -45,13 +40,13 @@ Score:
   * Test set:  0.94   
 
 
-Score apres evaluation:
+Score after evaluation:
   * Train set: 0.95     
   * Test set:  0.95    
   
 
 
-## Auteur
+## Author
 Bamba Spoid
 
-Les retours sont toujours les bienvenus
+Feedback is always welcome
